@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(135deg, #0f0e0e, #121012);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #e9c4de, #7f7fd5);
+    color: #0c0c0c;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+#about p {
+    width: 60%;
+    margin: 20px auto 0;
+    font-size: 1.1em;
+}
+
+
+/* Skills Section */
+#skills {
+    background: linear-gradient(135deg, #b923d7, #ffd200);
+    padding: 50px 0;
+    text-align: center;
+    color: #333;
+}
+
+#skills h2 {
+    margin-bottom: 30px;
+}
+
+.skills-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.skills-table th, .skills-table td {
+    border: 1px solid #333;
+    padding: 10px 20px;
+    font-size: 1.1em;
+}
+
+.skills-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.skills-table td {
+    background-color: #fff;
+}
+
+.skills-category {
+    background-color: #f46ed0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #e069d2, #e446a8);
+    color: #fff;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    border: 4px solid #fff;
+}
+
+.project h3 {
+    margin: 10px 0 5px;
+}
+
+.project p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Resume Section */
+#resume {
+    background: linear-gradient(135deg, hsl(313, 47%, 74%), #1d1c1d);
+    padding: 50px 0;
+    text-align: center;
+}
+
+#resume a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e99bde;
+    color: #f4caca;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #a5356b, #e264c7);
+    color: #fff;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
